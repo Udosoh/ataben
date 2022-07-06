@@ -1,0 +1,251 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    border: solid black 1px;
+    width: 100%;
+    display: flex;
+    height: 105px;
+    background-color: #000000;
+
+
+}
+
+.navbar p {
+    /*border: solid rgb(94, 21, 21) 1px; */
+    width: 12%;
+    color: #fbfbfb;
+    font-size: 24px;
+    padding: 1.5em;
+
+
+}
+
+nav input {
+    margin: 2em 2em;
+    width: 25%;
+    border-radius: 1.43em;
+    border: none;
+}
+
+nav {
+    /* border: solid rgb(15, 165, 52) 1px; */
+    display: flex;
+    align-content: center;
+    width: 90%;
+}
+
+nav a {
+    /* border: solid rgb(150, 16, 16) 1px; */
+    text-align: center;
+    padding: 2.8em 2em 0 1em;
+    font-size: 0.9375em;
+    text-decoration: none;
+    font-weight: 500;
+    color: #fbfbfb;
+}
+
+#as {
+    position: relative;
+    top: -0.4em;
+}
+
+#earn {
+    position: relative;
+    top: -.23em
+}
+
+#pink {
+    background-color: pink;
+    border-radius: 1.43em;
+    height: 3.43em;
+    width: 5%;
+    position: relative;
+    top: 1.5em
+}
+
+#pink a img {
+    position: relative;
+    left: -.5em;
+    top: .3em
+}
+
+.hero {
+    background-image: url(svg/hero.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
+    height: 602px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#linear {
+    background-image: linear-gradient(to top, rgba(26, 25, 25, 0.9), rgba(0, 0, 0, 0));
+    width: 100%;
+    height: 265px;
+
+
+
+
+}
+
+.hero1 {
+    width: 100%;
+    height: 337px;
+}
+
+.innerhero3 {
+    position: absolute;
+    width: 100%;
+    height: 304px;
+    left: 0px;
+    top: 403px;
+
+    background: linear-gradient(360deg, rgba(26, 25, 25, 0.9) 44.61%, rgba(0, 0, 0, 0) 87.34%);
+    /* border: solid green 2px; */
+    display: flex;
+
+}
+
+.innerhero3 .profileleft {
+    width: 50%;
+    display: flex;
+}
+
+.profileleft .profilepic {
+    width: 50%;
+}
+
+.profileleft .profilepic img {
+    width: 13.28em;
+    height: 13.28em;
+    border: solid white 1em;
+    border-radius: 3.6em;
+    position: relative;
+    top: 10em;
+    left: 7em;
+}
+
+.innerhero3 .profileright {
+    width: 50%;
+
+}
+
+
+
+.profilename .name {
+    position: relative;
+
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.75rem;
+    /* line-height: 3.312em; */
+
+    color: #FFFFFF;
+
+}
+
+.profilename .link {
+    position: relative;
+
+
+
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.43em;
+    color: #FFFFFF;
+
+
+}
+
+.profilename {
+    border-right: rgba(120, 120, 120, 1) solid 1px;
+    width: 50%;
+    height: 100px;
+    position: relative;
+    top: 11em;
+}
+
+.profileright {
+    display: flex;
+    flex-direction: column;
+}
+
+.profileright .empty {
+    height: 50%;
+
+}
+
+.bottom {
+    display: flex;
+    border: red solid 2px;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+
+/* .bot {
+
+    margin: 2em;
+    background: rgba(255, 0, 122, 1); 
+
+}*/
+
+.join p {
+    text-align: center;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 19px;
+    gap: 10px;
+
+    width: 286px;
+    height: 95px;
+
+    background: #FF007A;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25em;
+    line-height: 1.5em;
+
+    border-radius: 0.62em;
+
+    color: #FFFFFF;
+
+}
+
+.bottom img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 8px;
+    gap: 32px;
+
+    width: 114px;
+    height: 95px;
+   
+
+    background: #FF007A;
+    border-radius: 10px;
+}
+
+
+
+.innerhero3 div {
+    /* border: solid rgba(62, 25, 165, 0.527) 2px; */
+}
